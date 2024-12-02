@@ -1,0 +1,432 @@
+body{
+  background-color: gold;
+     background-image: url(./imagem/fundo.png); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-size: center;
+}
+
+@font-face {
+  font-family:'bangers' ;
+  src: url('./bangers/Bangers-Regular.ttf') format('truetype');
+}
+
+@font-face{
+  font-family:'nunito' ;
+  src: url('./nunito-regular/Nunito-Regular.ttf') format('truetype');
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #FFD600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-icon div {
+  width: 25px;
+  height: 4px;
+  background-color: #000;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.banner {
+  margin-top: 60px;
+  background-color: #22002c;
+  border-radius: 15px;
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.4;
+  max-width: 100px;
+  width: 10%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: bangers;
+  
+}
+
+
+body {
+  margin: 0;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #FFD600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-icon div {
+  width: 25px;
+  height: 6px;
+  background-color: #000;
+}
+
+.container {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.banner {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.4;
+  max-width: 400px; 
+  width: 90%; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  font-size: 50px;
+  }
+
+
+  .texto-embaixo {
+    position: center;
+    margin-top: 50px;
+    font-size: 28px;
+    color: #0f0e0e; 
+    font-family: nunito;
+ }
+
+  
+  .imagem-embaixo {
+    display: block; 
+    margin: auto; 
+    width: 3%;
+    max-width: 1010px; 
+    height: auto; 
+  }
+  
+  .quem-somos {
+    padding: 20px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+     width: 10000px;
+  }
+
+  .titulo-quem-somos {
+    background-color:#f5f5f4;
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(0, 0, 0); 
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    font-family:bangers;
+   
+    
+    }
+
+     .quem-somos-2 {
+      
+      margin-top: 45px;
+      background-color:#000000;
+      padding: 69px;
+      font-size: 48px;
+      font-weight: bold;
+      color: rgb(255, 255, 255); 
+      margin-bottom: 18px;
+      line-height: 1.5S; 
+      text-align: center;
+      font-family: nunito;
+    }
+    
+   .botao-mandar-sinal {
+    margin-top: 45%;
+    background-color: #00b050;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px 20px ;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+    }
+
+    .fundo-amarelo {
+    background-color: #FFD600;
+    padding: 66px;
+    background-position: auto;
+    font-size: 45px;
+    font-family: nunito;
+    }
+
+
+    .titulo-portfolio {
+       color: fuchsia;
+       padding: 650px;
+       font-size: 70px;
+       display: block;
+       font-family: bangers;
+    }
+
+    .titulo-quem-somos-2{
+      color: #FFD600;
+      font-family: bangers;
+     }
+
+    .QG {
+     font-family: bangers;
+     font-size: 39px;
+     }
+
+     .base{
+      font-family: nunito;
+      font-size: 28px;
+     }
+
+
+
+
+
+
+
+
+
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fbff00; /* Fundo preto */
+  color: #030303;
+}
+
+/* Seção do formulário */
+.formulario-section {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: black;
+}
+
+/* Título */
+.titulo-formulario {
+  font-size: 59px;
+  color: #faf600;
+  margin-bottom: 10px;
+  font-family: bangers;
+}
+
+/* Descrição */
+.descricao-formulario {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  line-height: 1.6;
+  font-family: nunito;
+}
+
+/* Formulário */
+.form-container {
+  background-color: #ffea00; /* Amarelo */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+form input,
+form select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form select {
+  background-color: #000;
+  color: #fff;
+}
+
+form button {
+  background-color: #00b050;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #008f43;
+}
+
+/* Informações de contato */
+.contato-info {
+  margin-top: 20px;
+  color: #f8f8f8;
+}
+
+.contato-info p {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin: 0 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .titulo-formulario {
+    font-size: 1.8rem; 
+  }
+
+  .descricao-formulario {
+    font-size: 0.9rem; 
+  }
+
+  .form-container {
+    padding: 15px; 
+  }
+
+  form input,
+  form select {
+    font-size: 0.9rem; 
+  }
+
+  form button {
+    font-size: 0.9rem;
+  }
+
+  .contato-info p {
+    font-size: 0.9rem; 
+  }
+
+  .social-icons a {
+    font-size: 1rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo-formulario {
+    font-size: 1.5rem;
+  }
+
+  .descricao-formulario {
+    font-size: 0.8rem;
+  }
+
+  form input,
+  form select,
+  form button {
+    font-size: 0.8rem; 
+    padding: 8px; 
+  }
+
+  .contato-info p {
+    font-size: 0.8rem; 
+  }
+
+  .social-icons a {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+
